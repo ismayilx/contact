@@ -134,3 +134,49 @@ h2{
 
 /*our team*/
 
+.our-team{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100vh;
+
+    img{
+        width: 255px;
+        height: 255px;
+    }
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    padding: 0 10px 20px 20px;
+}
+
+h4{
+    font: 900 40px "Work Sans";
+    color: #007bff;
+}
+
+.h4-p{
+    padding: 20px 0 60px 0;
+    font: 300 1.25rem "Work Sans";
+    color: gray;
+    width: 730px;
+    text-align: center;
+}
+
+.card-name{
+    font: 500 20px "Work Sans";
+    padding: 15px 0 10px 0;
+}
+
+.card-job{
+    font: 400 13px "Work Sans";
+    color: gray;
+}
+
+/*testimonials*/
