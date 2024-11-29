@@ -237,6 +237,11 @@ hr{
     flex-direction: column;
     align-items: center;
     height: 900px;
+
+    h2{
+        font: 900 40px "Work Sans";
+        color: #007bff;
+    }
 }
 
 .pricing-cards{
@@ -406,6 +411,10 @@ hr{
         font: 400 16px "Work Sans";
         padding: 20px 0 10px 0;
     }
+
+    input{
+        outline: none;
+    }
 }
 
 .contact-us{
@@ -552,3 +561,95 @@ hr{
 
 /*footer*/
 
+.footer-background{
+    background-color: #333;
+    height: 630px;
+
+    .container{
+        padding: 128px 0;
+    }
+
+    hr{
+        border: 1px solid rgba(128, 128, 128, 0.386);
+        margin: 80px 0 50px 0;
+    }
+}
+
+.footer-contents{
+    display: flex;
+    justify-content: space-between;
+    width: auto ;
+
+    h4{
+        color: #fff;
+        font: 500 16px "Work Sans";
+        padding-bottom: 30px;
+    }
+
+    p, li{
+        color: #737373;
+        font: 400 16px "Work Sans";
+    }
+
+    li{
+        padding: 8px ;
+    }
+
+    i{
+        color: #999;
+        padding-right: 20px;
+    }
+}
+
+.footer-card1{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 200px;
+}
+
+.footer-email{
+    display: flex;
+    justify-content: center;
+
+    input{
+        padding: 6px 12px;
+        height: 30px;
+        border-radius: 30px 0 0 30px;
+        border: 1px solid #6c757d;
+        background-color: transparent;
+    }
+
+    button{
+        padding: 10px 30px;
+        border-radius: 0 30px 30px 0;
+        border: 1px solid #007bff;
+        background-color: #fff;
+    }
+}
+
+::placeholder{
+    color: #6c757d;
+    font: 400 16px "Work Sans";
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    color: #737373;
+    font: 400 16px "Work Sans";
+
+    i{
+        color: #dc3545;
+    }
+}
+
+.cororlib-footer{
+    color: #999;
+    text-decoration: none;
+    transition: .4s
+}
+
+.cororlib-footer:hover{
+    color: #fff;
+}
