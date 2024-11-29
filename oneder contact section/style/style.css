@@ -224,3 +224,161 @@ h5{
 }
 
 /*pricing*/
+
+#pricing-background{
+    background-color: #f8f9fa;
+}
+
+.pricing{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    height: 900px;
+}
+
+.pricing-cards{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.pricing-card1, .pricing-card2, .pricing-card3{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    width: 349px;
+    height: 563px;
+    background-color: #fff;
+
+    a{
+        font: 400 16px "Work Sans";
+        padding: 10px 30px;
+        border-radius: 30px;
+        text-decoration: none;
+        color: #fff;
+    }
+
+}
+
+.pricing-card1, .pricing-card3{
+    a{
+        background-color: #6c757d;
+        border: 1px solid #6c757d;
+        transition: .4s;
+    }
+
+    a:hover{
+        background-color: #5a6268;
+        border-color: #5a6268;
+    }
+}
+
+.pricing-card2{
+    a{
+        background-color: #007bff;
+        border: 1px solid #007bff;
+        transition: .4s;
+    }
+
+    a:hover{
+        background-color: #000;
+        border-color: #000;
+    }
+}
+
+.pricing-card2{
+    margin: 0 30px;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+}
+
+.pricing-check{
+    display: flex;
+    justify-content: left;
+
+    i{
+        padding-right: 15px;
+        color: #71bc42;
+    }
+
+    p{
+        font: 400 1rem "Work Sans";
+        color: gray;
+    }
+}
+
+.second_h3{
+    font: 500 1.75rem "Work Sans";
+}
+
+.price{
+    p:nth-of-type(1){
+        color: #007bff;
+        font: 400 3rem "Work Sans";
+    }
+
+    p:nth-of-type(2){
+        font: 400 1rem "Work Sans";
+        color: rgba(128, 128, 128, 0.568);
+        padding-top: 30px;
+    }
+
+}
+
+.pricing-card1 .pricing-check:nth-of-type(4){
+    p{
+        text-decoration: line-through #dee2e6;
+        color: #dee2e6;
+    }
+
+    i{
+        color: #dee2e6;
+    }
+}
+
+.pricing-card1 .pricing-check:nth-of-type(5){
+    p{
+        text-decoration: line-through #dee2e6;
+        color: #dee2e6;
+    }
+
+    i{
+        color: #dee2e6;
+    }
+}
+
+.pricing-card1 .pricing-check:nth-of-type(6){
+    p{
+        text-decoration: line-through #dee2e6;
+        color: #dee2e6;
+    }
+
+    i{
+        color: #dee2e6;
+    }
+}
+
+.pricing-card2 .pricing-check:nth-of-type(6){
+    p{
+        text-decoration: line-through #dee2e6;
+        color: #dee2e6;
+    }
+
+    i{
+        color: #dee2e6;
+    }
+}
+
+
+
+
+
+
+
+/*contact us*/
+
