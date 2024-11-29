@@ -381,7 +381,43 @@ hr{
     }
 }
 
+/*Frequently asked questions*/
 
+.questions-background{
+    background-color: #f8f9fa;
+}
+
+.questions{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+
+    h5{
+        font: 900 40px "Work Sans";
+        color: #007bff;
+    }
+
+    h6{
+        font: 400 20px "Work Sans";
+    }
+}
+
+.question-card{
+    width: 540px;
+
+    p{
+        font: 400 16px "Work Sans";
+        color: #808080;
+        padding: 20px 0 40px 0;
+    }
+}
+
+.question-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
 
