@@ -139,7 +139,7 @@ h2{
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    height: 100vh;
+    height: 900px;
 
     img{
         width: 255px;
@@ -180,3 +180,47 @@ h4{
 }
 
 /*testimonials*/
+
+.testimonials{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+
+    img{
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        margin-right: 30px;
+    }
+}
+
+hr{
+    border: 1px solid gray;
+}
+
+h5{
+    font: 900 40px "Work Sans";
+    color: #007bff;
+}
+
+.testimonials-text{
+    font: italic 400 1.5rem "Work Sans";
+    color: gray;
+    width: 800px;
+}
+
+.smallperson{
+    display: flex;
+    justify-content: center;
+
+    p{
+        padding-top: 10px;
+        font: 400 16px "Work Sans";
+        color: gray;
+        line-height: 15px;
+    }
+}
+
+/*pricing*/
